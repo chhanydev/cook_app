@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    tools:context="com.uiresource.cookit.FoodDetailActivity">
+
+
+
+    <ImageView
+        android:id="@+id/imgfood"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+    <TextView
+        android:id="@+id/foodTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Food Title"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/foodComponent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Component Food"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:id="@+id/foodHow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How to use"
+        android:textSize="18sp" />
+</LinearLayout>
